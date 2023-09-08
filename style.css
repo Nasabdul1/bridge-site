@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    height: 60px;
+    background: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    margin-left: 80px;
+}
+
+nav li{
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+nav li:hover{
+    text-decoration: 5px  orangered underline;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+button{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: orangered;
+    box-shadow: 2px 5px 2px rgb(131, 35, 0);
+    margin-left: auto; 
+    margin-right: 20px;
+    transition: transform 0.5sec;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(3px);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+#sun{
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.icon{
+    display: none;
+}
+
+.bridge{
+    height: 140vh;
+    background: none;
+    position: relative;
+}
+
+.bridge-cont{
+    height: 550px;
+    width: 500px;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sender{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.ted{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.from, .to{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(172, 167, 167);
+    border-radius: 20px;
+}
+
+#rotate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.toggle{
+    display: none;
+}
+
+#on, #off{
+    font-size: 30px;
+}
