@@ -23,13 +23,20 @@
     </nav>
 
     <section class="bridge">
-        <div class="sender">
+        <div class="sendr">
+            <div class="sender"><h1>Sender</h1></div>
+            <div class="maker"><h1>Maker</h1></div>
         </div>
 
         <div class="bridge-cont">
             <div class="ted">
                 <h1>Token</h1>
-                <button id="token" class="tokens"></button>
+                <select>
+                    <option value="eth">ETH</option>
+                    <option value="usdc">USDC</option>
+                    <option value="usdt">USDT</option>
+                    <option value="dai">DAI</option>
+                </select>
                 <i id="off" class="fas fa-toggle-off"></i>
                 <div class="toggle">
                     <i id="on" class="fas fa-toggle-on"></i>
@@ -40,7 +47,13 @@
             <div class="from"></div>
             <i id="rotate" class="fa-solid fa-rotate"></i>
             <div class="to"></div>
-        
+
+            <button id="send"><a href="#">Send</a></button>
+
+          <div class="infom">
+            <h2><i class="fas fa-gas-pump"></i>    Gas Fee Saved |</h2>
+            <h2><i class="fas fa-clock"></i>    Time Spent |</h2>
+          </div>
 
         </div>
     </section>
