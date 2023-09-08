@@ -12,7 +12,7 @@ body{
 
 nav{
     height: 60px;
-    background: none;
+    background-color: #E7F6EF;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -30,10 +30,11 @@ nav li{
     padding: 10px;
     cursor: pointer;
     font-weight: 600;
+    color: #5A5A5B;
 }
 
 nav li:hover{
-    text-decoration: 5px orangered underline;
+    text-decoration: 5px #CA2221 underline;
 }
 
 #logo{
@@ -44,8 +45,8 @@ button{
     padding: 12px;
     border-radius: 12px;
     border: none;
-    background-color: orangered;
-    box-shadow: 2px 5px 2px rgb(131, 35, 0);
+    background-color: #CA2221;
+    box-shadow: 2px 5px 2px #AA1D1C;
     margin-left: auto; 
     margin-right: 20px;
     transition: transform 0.5sec;
@@ -65,7 +66,7 @@ button a{
     cursor: pointer;
     font-size: 20px;
     margin-right: 20px;
-    background-color: rgb(215, 212, 212);
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -81,14 +82,14 @@ button a{
 
 .bridge{
     height: 140vh;
-    background: none;
+    background-color: #E7F6EF;
     position: relative;
 }
 
 .bridge-cont{
     height: 550px;
-    width: 500px;
-    background: none;
+    width: 450px;
+    background-color: #FFFFFF;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -126,14 +127,14 @@ button a{
 }
 
 .sender:hover{
-    background-color: orangered;
+    background-color: #CA2221;
     cursor: pointer;
-    box-shadow: 2px 5px 2px rgb(131, 35, 0);
+    box-shadow: 2px 5px 2px #AA1D1C;
 }
 .maker:hover{
-    background-color: orangered;
+    background-color: #CA2221;
     cursor: pointer;
-    box-shadow: 2px 5px 2px rgb(131, 35, 0);
+    box-shadow: 2px 5px 2px #AA1D1C;
 }
 
 .ted{
@@ -142,21 +143,62 @@ button a{
     margin-bottom: 20px;
 }
 
+.ted h1{
+    color: #333333;
+}
+
+.ted h2{
+    margin-left: 45%;
+    font-size: 18px;
+    color: #5A5A5B;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: none;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    gap: 10px;
+}
+
+.content h2{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #5A5A5B;
+}
+
 .from, .to{
-    height: 140px;
+    height: 100px;
     width: 100%;
-    background-color: rgb(172, 167, 167);
+    background-color: #F5F5F5;
     border-radius: 20px;
+    position: relative;
+}
+
+.from, .to{
+    padding: 20px;
+}
+
+.from, .to h3{
+    font-size: 12px;
+    color: #5A5A5B;
 }
 
 #rotate{
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    margin-left: 50%;
+    margin-left: 45%;
     padding: 10px;
     border-radius: 10px;
-    background-color: orangered;
+    background-color: #CA2221;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -172,37 +214,49 @@ button a{
 }
 
 select{
-   padding: 5px;
+   padding: 10px;
    margin-left: 5px;
    background-color: rgb(194, 190, 190);
    outline: none;
-   border-radius: 6px;
+   border-radius: 10px;
    cursor: pointer;
+   border: none;
 }
 
 option{
     background-color: white;
     text-align: center;
+    font-weight: bold;
+}
+
+img{
+    height: 40px;
+    width: 40px;
 }
 
 #send{
-    background-color: orangered;
+    background-color: #CA2221;
     cursor: pointer;
-    width: 450px;
+    width: 400px;
     border-radius: 30px;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 h2 .fas{
     font-size: 15px;
 }
 
-h2{
-    font-size: 12px;
-    margin-bottom: 10px;
-}
 
 .infom{
-    margin-top: 30px;
+    margin-top: 40px;
 }
+
+.infom h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+

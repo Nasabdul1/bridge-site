@@ -37,6 +37,8 @@
                     <option value="usdt">USDT</option>
                     <option value="dai">DAI</option>
                 </select>
+
+                <h2>V1</h2>
                 <i id="off" class="fas fa-toggle-off"></i>
                 <div class="toggle">
                     <i id="on" class="fas fa-toggle-on"></i>
@@ -44,11 +46,23 @@
             </div>
 
         
-            <div class="from"></div>
+            <div class="from">
+                <h3>From</h3>
+                <div class="content">
+                   <h2><i class="fa-brands fa-ethereum"></i>Ethereum <i class="fa-solid fa-caret-down"></i></h2>
+                    <input type="number, decimal" id="amount-input" placeholder="at least 0.005">
+                    <div class="max-button">Max</div>
+                </div>
+            </div>
             <i id="rotate" class="fa-solid fa-rotate"></i>
-            <div class="to"></div>
+            <div class="to">
+                <h3>To</h3>
+                <div class="content">
+                    <h2><i class="fa-brands fa-bitcoin" style="color: #f4cd0b;"></i>Bitcoin <i class="fa-solid fa-caret-down"></i></h2>
+                 </div>
+            </div>
 
-            <button id="send"><a href="#">Send</a></button>
+            <button id="send"><a href="#">SEND</a></button>
 
           <div class="infom">
             <h2><i class="fas fa-gas-pump"></i>    Gas Fee Saved |</h2>
